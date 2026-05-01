@@ -1,0 +1,35 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# Large files
+*.npy
+*.h5
+*.keras
+*.pkl
+
+# Data files (if any)
+data/*.csv
+data/*.npy
+
+# Models (optional - depends)
+# models/*.keras
+# models/*.h5
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db

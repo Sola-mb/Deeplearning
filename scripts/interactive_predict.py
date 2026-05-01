@@ -8,7 +8,7 @@ from tensorflow.keras.preprocessing.text import tokenizer_from_json
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 MODEL_PATH = os.path.join(BASE_DIR, 'models', 'final_model_real.keras')
-TOKENIZER_PATH = os.path.join(BASE_DIR, 'tokenizer', 'tokenizer.json')
+TOKENIZER_PATH = os.path.join(BASE_DIR, 'data', 'tokenizer.json')
 MAX_LEN = 150
 
 print("Loading model...")
